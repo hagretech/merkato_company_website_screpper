@@ -17,7 +17,7 @@ def page(url):
 
     print(no)
 
-for i in range(1000):
+for i in range(1247):
     url = 'https://www.2merkato.com/directory/' + str(i)
     page(url)
     print(url)
